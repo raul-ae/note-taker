@@ -3,7 +3,7 @@ var path = require("path");
 const { RSA_PSS_SALTLEN_AUTO } = require("constants");
 
 var app = express();
-var PORT = 3000;
+var PORT = process.env.PORT ||3000;
 
 //Creating tables array
 
